@@ -7,14 +7,15 @@
 *.userosscache
 *.sln.docstates
 
+# generated binaries
+*.exe
+*Project/Debug/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
 # Build results
-[Dd]ebug/
 [Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
 x64/
 x86/
 bld/
@@ -24,25 +25,13 @@ bld/
 
 # Visual Studio 2015 cache/options directory
 .vs/
-# Uncomment if you have tasks that create the project's static files in wwwroot
-#wwwroot/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-# NUNIT
-*.VisualState.xml
-TestResult.xml
 
-# Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
-dlldata.c
-
-# DNX
-project.lock.json
-project.fragment.lock.json
+# Visual Studio mid files.
 artifacts/
 
 *_i.c
@@ -63,6 +52,7 @@ artifacts/
 *.tmp
 *.tmp_proj
 *.log
+*.tlog
 *.vspscc
 *.vssscc
 .builds
@@ -101,14 +91,9 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
-# JustCode is a .NET coding add-in
-.JustCode
-
 # TeamCity is a build add-in
 _TeamCity*
 
-# DotCover is a Code Coverage Tool
-*.dotCover
 
 # Visual Studio code coverage results
 *.coverage
@@ -214,23 +199,6 @@ Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
 
-# SQL Server files
-*.mdf
-*.ldf
-
-# Business Intelligence projects
-*.rdl.data
-*.bim.layout
-*.bim_*.settings
-
-# Microsoft Fakes
-FakesAssemblies/
-
-# GhostDoc plugin setting file
-*.GhostDoc.xml
-
-# Node.js Tools for Visual Studio
-.ntvs_analysis.dat
 
 # Visual Studio 6 build log
 *.plg
@@ -256,13 +224,4 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
-
-# CodeRush
-.cr/
-
-# Python Tools for Visual Studio (PTVS)
-__pycache__/
-*.pyc
-
-# Cake - Uncomment if you are using it
 
